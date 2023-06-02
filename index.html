@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz-box</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <img src="#" alt="Logo">
-                <ul class="menu">
-                    <li class="menu_item">Главная</li>
-                    <li class="menu_item">Игры</li>
-                    <li class="menu_item">Отзывы</li>
-                </ul>
-                <div class="header__info">
-                    <p class="phone">8 800 700 30 30</p>
-                    <p class="schedule">График работы</p>
-                </div>
+                <a href="/" class="logo">
+                    <img src="#" alt="Logo" class="logo__pic">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__active-item"><a href="#">Главная</a></li>
+                        <li class="menu__item"><a href="#">Игры</a></li>
+                        <li class="menu__item"><a href="#">Отзывы</a></li>
+                    </ul>
+                </nav>
+                <adress class="header__contacts">
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    <div class="contacts__workhours">График работы</div>
+                </adress>
             </div>
         </header>
-        <div class="content">
+        <div class="page-content">
             <div class="container">
-                <div class="main">
+                <main class="main">
                     <h1 class="main__title">
                         Интеллектуальный
                         вечер для шумной
@@ -36,17 +40,21 @@
                         Игры на любой вкус
                     </h3>
                     <a href="#" class="main__more">ПОДРОБНЕЕ</a>
-                </div>
+                </main>
                 <div class="news">
                     <div class="news__item">
-                        <img src="#" alt="Music">
-                        <h2 class="news_title">Музыкальная игра</h2>
-                        <p class="news__time">
-                            <img src="#" alt="Time"> 90 минут
-                        </p>
-                        <p class="news__count__quiz">
-                            <img src="#" alt="QA"> 70 вопросов
-                        </p>
+                        <img src="#" alt="Music" class="news__pic">
+                        <h2 class="news__title">Музыкальная игра</h2>
+                        <ul class="news__info">
+                            <li class="news__info-item">
+                                <img src="#" alt="Time" class="news__icon">
+                                <div class="news__time">90 минут</div>
+                            </li>
+                            <li class="news__info-item">
+                                <img src="#" alt="QA" class="news__icon">
+                                <div class="news__count">70 вопросов</div>
+                            </li>
+                        </ul>
                         <p class="news__desc">
                             Равным образом постоянное обеспечение
                             нашей деятельности позволяет оценить
@@ -56,13 +64,17 @@
                     </div>
                     <div class="news__item">
                         <img src="#" alt="Back to 90e">
-                        <h2 class="news_title">Назад в 90-е</h2>
-                        <p class="news__time">
-                            <img src="#" alt="Time"> 90 минут
-                        </p>
-                        <p class="news__count__quiz">
-                            <img src="#" alt="QA"> 70 вопросов
-                        </p>
+                        <h2 class="news__title">Назад в 90-е</h2>
+                        <ul class="news__info">
+                            <li class="news__info-item">
+                                <img src="#" alt="Time" class="news__icon">
+                                <div class="news__time">90 минут</div>
+                            </li>
+                            <li class="news__info-item">
+                                <img src="#" alt="QA" class="news__icon">
+                                <div class="news__count">70 вопросов</div>
+                            </li>
+                        </ul>
                         <p class="news__desc">
                             Равным образом постоянное обеспечение
                             нашей деятельности позволяет оценить
@@ -72,13 +84,17 @@
                     </div>
                     <div class="news__item">
                         <img src="#" alt="IT Quiz">
-                        <h2 class="news_title">IT-викторина</h2>
-                        <p class="news__time">
-                            <img src="#" alt="Time"> 90 минут
-                        </p>
-                        <p class="news__count__quiz">
-                            <img src="#" alt="QA"> 70 вопросов
-                        </p>
+                        <h2 class="news__title">IT-викторина</h2>
+                        <ul class="news__info">
+                            <li class="news__info-item">
+                                <img src="#" alt="Time" class="news__icon">
+                                <div class="news__time">90 минут</div>
+                            </li>
+                            <li class="news__info-item">
+                                <img src="#" alt="QA" class="news__icon">
+                                <div class="news__count">70 вопросов</div>
+                            </li>
+                        </ul>
                         <p class="news__desc">
                             Равным образом постоянное обеспечение
                             нашей деятельности позволяет оценить
@@ -93,49 +109,49 @@
                     </h1>
                     <div class="games__items">
                         <div class="games__item">
-                            <h4 class="game__date">1 января</h4>
-                            <h2 class="game__title">
+                            <h4 class="games__item-date">1 января</h4>
+                            <h2 class="games__item-title">
                                 Новогодний квиз
                             </h2>
-                            <p class="game__desc">
+                            <p class="games__item-desc">
                                 Успевайте забронировать даты. Пока еще есть места на
                                 декабрь. Удачи и всех благ!
                             </p>
                         </div>
                         <div class="games__item">
-                            <h4 class="game__date">8 марта</h4>
-                            <h2 class="game__title">
+                            <h4 class="games__item-date">8 марта</h4>
+                            <h2 class="games__item-title">
                                 Весенняя игра
                             </h2>
-                            <p class="game__desc">
+                            <p class="games__item-desc">
                                 Успевайте забронировать даты. Пока еще есть места на
                                 декабрь. Удачи и всех благ!
                             </p>
                         </div>
                     </div>
-                    <div class="games__slider">
-                        <p class="slider__info">Страница 1 из 7</p>
-                        <ul class="slider__buttons">
-                            <li class="slider__button"><a href="#">1</a></li>
-                            <li class="slider__button"><a href="#">2</a></li>
-                            <li class="slider__button"><a href="#">3</a></li>
-                            <li class="slider__button"><a href="#">4</a></li>
-                            <li class="slider__button"><a href="#">5</a></li>
-                            <li class="slider__button"><a href="#">6</a></li>
-                            <li class="slider__button"><a href="#">7</a></li>
+                    <div class="games__pagination">
+                        <div class="games__pagination-info">Страница 1 из 7</div>
+                        <ul class="games__pagination-buttons">
+                            <li class="games__pagination-button"><a href="#">1</a></li>
+                            <li class="games__pagination-button"><a href="#">2</a></li>
+                            <li class="games__pagination-button"><a href="#">3</a></li>
+                            <li class="games__pagination-button"><a href="#">4</a></li>
+                            <li class="games__pagination-button"><a href="#">5</a></li>
+                            <li class="games__pagination-button"><a href="#">6</a></li>
+                            <li class="games__pagination-button"><a href="#">7</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="about">
-                    <img src="#" alt="Team">
+                    <img src="#" alt="Team" class="about__pic">
                     <div class="about__info">
                         <h2 class="about__title">О нас</h2>
                         <p class="about__desc">
                             Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
                             сгенерировать несколько абзацев более менее осмысленного
                             текста рыбы на русском языке, а начинающему оратору
-                            отточить навык публичных выступлений в домашних 
-                            условиях. 
+                            отточить навык публичных выступлений в домашних
+                            условиях.
                         </p>
                         <a href="#" class="about__more">ПОДРОБНЕЕ</a>
                     </div>
@@ -146,20 +162,20 @@
             <div class="container">
                 <img src="#" alt="Logo" class="footer__logo">
                 <ul class="footer__menu">
-                    <li class="footer__menu__item"><a href="#">Главная</a></li>
-                    <li class="footer__menu__item"><a href="#">Игры</a></li>
-                    <li class="footer__menu__item"><a href="#">Отзывы</a></li>
+                    <li class="footer__menu-item"><a href="#">Главная</a></li>
+                    <li class="footer__menu-item"><a href="#">Игры</a></li>
+                    <li class="footer__menu-item"><a href="#">Отзывы</a></li>
                 </ul>
                 <ul class="footer__contacts">
-                    <li class="footer__contacts__item"><a href="#">Telegram</a></li>
-                    <li class="footer__contacts__item"><a href="#">VK</a></li>
-                    <li class="footer__contacts__item"><a href="#">Facebook</a></li>
-                    <li class="footer__contacts__item"><a href="#">Instagram</a></li>
+                    <li class="footer__contacts-item"><a href="#">Telegram</a></li>
+                    <li class="footer__contacts-item"><a href="#">VK</a></li>
+                    <li class="footer__contacts-item"><a href="#">Facebook</a></li>
+                    <li class="footer__contacts-item"><a href="#">Instagram</a></li>
                 </ul>
-                <div class="footer__phone">
-                    <h6 class="footer__free">Бесплатный звонок по России</h6>
-                    <p class="footer__phone">8 800 700 30 30</p>
-                </div>
+                <adress class="footer__adress">
+                    <h6 class="footer__free-call">Бесплатный звонок по России</h6>
+                    <div class="footer__phone"><a href="tel:+78007003030">8 800 700 30 30</a></div>
+                </adress>
             </div>
         </footer>
     </div>
