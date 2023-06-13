@@ -65,8 +65,8 @@ p{
 }
 .menu__footer{
     position: absolute;
-    top: 20px;
-    left: 287px;
+    top: 14px;
+    left: 290px;
 }
 .menu__item{
     display: inline-block;
@@ -96,6 +96,7 @@ p{
 .contacts__desc{
     color: #9A9A9A;
     font-size: 11px;
+    margin-bottom: 5px;
 }
 .contacts__phone{
     font-size: 26px;
@@ -366,20 +367,20 @@ p{
 .footer{
     height: 90px;
     position: relative;
-    top: 35px;
+    top: 42px;
 }
 
 .socials__item{
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 .socials__item:last-child{
     margin-right: 0;
 }
 .socials{
     top: 10px;
-    right: 265px;
+    right: 262px;
     position: absolute;
 }
 .socials__link{
@@ -388,6 +389,7 @@ p{
     height: 36px;
     background: center / center no-repeat;
 }
+
 .socials__item--tg .socials__link{
     background-image: url(../img/telegram.png) ;
 }
