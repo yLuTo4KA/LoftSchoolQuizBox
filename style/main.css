@@ -115,11 +115,12 @@ p{
     font-size: 60px;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 17px;
+    margin-bottom: 19px;
 }
 .main__desc{
     font-size: 21px;
     margin-bottom: 74px;
+    margin-left: 5px;
 }
 .btn{
     background: #8F00FF;
@@ -275,7 +276,7 @@ p{
     margin-bottom: 10px;
 }
 .games{
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 
 
