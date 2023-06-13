@@ -1,0 +1,29 @@
+.main{
+    width: 640px;
+    margin-bottom: 192px;
+}
+.main__title{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 19px;
+}
+.main__desc{
+    font-size: 21px;
+    margin-bottom: 74px;
+    margin-left: 5px;
+}
+.btn{
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 18px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+}
+.btn:hover{
+    background: #741BBA;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+

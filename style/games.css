@@ -1,0 +1,15 @@
+@import url('../style/layout/normalize.css');
+
+@import url('../style/layout/base.css');
+
+@import url('../style/blocks/header.css');
+
+
+
+@import url('../style/blocks/footer.css');
+
+
+.hero{
+    background: url('../img/reviews-page-bg-up.png') no-repeat;
+    min-height: 412px;
+}
