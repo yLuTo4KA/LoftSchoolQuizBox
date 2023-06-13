@@ -8,6 +8,7 @@ body{
     height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 a{
     color: inherit;
@@ -32,6 +33,7 @@ p{
 }
 .main-page-wrapper{
     background: url(../img/main-page-bg-up.png) center top no-repeat, url(../img/main-page-bg-down.png) right bottom 150px no-repeat;
+    
 }
 
 .container{
