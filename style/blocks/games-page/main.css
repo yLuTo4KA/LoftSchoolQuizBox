@@ -1,0 +1,28 @@
+
+
+
+.main__title{
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+.main__pages{
+    width: 120px;
+}
+.pages__list{
+    display: flex;
+    color: #9A9A9A;
+    align-items: center;
+}
+.pages__item{
+    margin-right: 5px;
+}
+.pages__link{
+    text-decoration: underline;
+    font-size: 14px;
+   
+}
+.pages__link--active{
+    font-weight: 700;
+
+}

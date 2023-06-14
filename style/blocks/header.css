@@ -1,13 +1,11 @@
 .header{
-    height: 120px;
-    position: relative;
-    margin-bottom: 65px;
+    height: 50px;
+    margin-bottom: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo{
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
     font-size: 36px;
     font-weight: 700;
     background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
@@ -16,14 +14,11 @@
    
 }
 .menu{
-    position: absolute;
-    top: 14px;
-    left: 421px;
+  margin-left: 33px;
 }
 
 .menu__item{
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
     margin-right: 62px;
 }
 .menu__item:last-child{
@@ -39,10 +34,8 @@
     color: #8F00FF;
 }
 .header__contacts{
-    position: absolute;
-    top: 9px;
     line-height: 1.1;
-    right: 0;
+    margin-top: 10px;
     font-style: normal;
     text-align: right;
 }

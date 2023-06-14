@@ -3,11 +3,11 @@
 @import url('./layout/base.css');
 
 @import url('./blocks/header.css');
-@import url('./blocks/main.css');
-@import url('./blocks/news.css');
-@import url('./blocks/games.css');
+@import url('./blocks/main-page/main.css');
+@import url('./blocks/main-page/news.css');
+@import url('./blocks/main-page/games.css');
 @import url('./blocks/pager.css');
-@import url('./blocks/about.css');
+@import url('./blocks/main-page/about.css');
 @import url('./blocks/footer.css');
 
 .main-page-wrapper{
