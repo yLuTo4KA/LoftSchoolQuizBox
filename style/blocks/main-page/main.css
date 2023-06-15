@@ -1,6 +1,8 @@
-.main{
-    width: 640px;
-    margin-bottom: 192px;
+.hero{
+    margin-bottom: 188px;
+}
+.main__text-section{
+    width: 55%;
 }
 .main__title{
     font-size: 60px;

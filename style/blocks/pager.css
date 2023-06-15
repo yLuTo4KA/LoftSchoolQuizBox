@@ -1,18 +1,19 @@
 .pager{
-    text-align: center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.pager__display, .pager__list{
-    display: inline-block;
-    vertical-align: middle;
+
+.pager__list{
+    display: flex;
+    align-items: center;
 }
 .pager__display{
-    margin-right: 26px;
+    margin-right: 25px;
 }
 
 .pager__item{
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .pager__item--active .pager__link{

@@ -1,20 +1,19 @@
-
+.about{
+    display: flex;
+}
 .about:before{
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 489px;
     height: 505px;
-    background: url(../../img/about-img.png) center center / cover no-repeat;
+    background: url(../../../img/about-img.png) center center / cover no-repeat;
 }
 
 .about__desc{
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
     padding: 70px 80px;
-    display: inline-block;
-    vertical-align: top;
-    width: 785px;
-    margin-left: -140px;
+    max-width: 787px;
+    margin-left: -135px;
     margin-top: 95px;
     border-radius: 5px;
 }
@@ -25,7 +24,7 @@
 }
 .about__desc--text{
     margin-bottom: 38px;
-    width: 502px;
+    width: 80%;
 }
 .about__desc--text p {
     margin-bottom: 20px;

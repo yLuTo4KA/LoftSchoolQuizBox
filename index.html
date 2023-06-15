@@ -4,43 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="1200, initial-scale=1.0">
     <title>Quiz-box</title>
     <link rel="stylesheet" href="./style/layout.css">
     <link rel="stylesheet" href="./style/general.css">
 </head>
+
 <body>
     <div class="wrapper main-page-wrapper">
         <div class="wrapper__content">
             <section class="hero">
-                <div class="container">
+                <div class="container hero__container">
                     <header class="header">
-                        <a href="/LoftSchoolQuizBox/index.html" class="logo">
-                            Quiz-box
-                        </a>
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <li class="menu__item menu__item--active"><a class="menu__link"
-                                        href="/LoftSchoolQuizBox/index.html">Главная</a></li>
-                                <li class="menu__item"><a class="menu__link" href="./pages/games.html">Игры</a></li>
-                                <li class="menu__item"><a class="menu__link" href="./pages/reviews.html">Отзывы</a></li>
-                            </ul>
-                        </nav>
-                        <adress class="header__contacts">
-                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__workhours">График работы</div>
-                        </adress>
+                            <a href="/LoftSchoolQuizBox/index.html" class="logo">
+                                Quiz-box
+                            </a>
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item menu__item--active"><a class="menu__link"
+                                            href="/LoftSchoolQuizBox/index.html">Главная</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="./pages/games.html">Игры</a></li>
+                                    <li class="menu__item"><a class="menu__link" href="./pages/reviews.html">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <adress class="header__contacts">
+                                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                                <div class="contacts__workhours">График работы</div>
+                            </adress>
                     </header>
                     <main class="main">
-                        <h1 class="main__title">
-                            Интеллектуальный
-                            вечер для шумной
-                            компании
-                        </h1>
-                        <h3 class="main__desc">
-                            Игры на любой вкус
-                        </h3>
-                        <a href="#" class="main__more btn">Подробнее</a>
+                        <div class="main__text-section">
+                            <h1 class="main__title">
+                                Интеллектуальный
+                                вечер для шумной
+                                компании
+                            </h1>
+                            <h3 class="main__desc">
+                                Игры на любой вкус
+                            </h3>
+                            <a href="#" class="main__more btn">Подробнее</a>
+                        </div>
                     </main>
                 </div>
             </section>
@@ -48,90 +52,102 @@
                 <div class="container">
                     <h2 class="section__title">Новинки недели</h2><span class="section__icon"></span>
                     <ul class="news">
-                        <li class="news__item">
-                            <div class="news__header">
+                        <li class="news__item new">
+                            <div class="new__header">
                                 <img src="./img/music-quiz.png" alt="Back To 90-e">
                             </div>
-                            <div class="news__content">
-                                <h3 class="news__title">Музыкальная игра</h3>
-                                <div class="news__info">
-                                    <div class="news__info--time">
-                                        <span class="news__icon--time"></span> 90 минут
+                            <div class="new__content">
+                                <h3 class="new__title">Музыкальная игра</h3>
+                                <div class="new__info">
+                                    <div class="new__info--time">
+                                        <span class="new__icon--time"></span> 90 минут
                                     </div>
-                                    <div class="news__info--qa">
-                                        <span class="news__icon--qa"></span>70 вопросов
+                                    <div class="new__info--qa">
+                                        <span class="new__icon--qa"></span>70 вопросов
                                     </div>
                                 </div>
-                                <div class="news__desc">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                <div class="new__desc">Равным образом постоянное обеспечение нашей деятельности
+                                    позволяет
                                     оценить значение систем массового участия.
                                 </div>
-                                <a href="#" class="news__watch--btn">Cмотреть</a>
+                                <div class="new__btn-wrapper">
+                                    <a href="#" class="new__watch--btn">Cмотреть</a>
+                                </div>
+
                             </div>
                         </li>
-                        <li class="news__item">
-                            <div class="news__header">
+                        <li class="news__item new">
+                            <div class="new__header">
                                 <img src="./img/back-quiz.png" alt="back to 90e">
                             </div>
-                            <div class="news__content">
-                                <h3 class="news__title">Назад в 90-е</h3>
-                                <div class="news__info">
-                                    <div class="news__info--time">
-                                        <span class="news__icon--time"></span> 90 минут
+                            <div class="new__content">
+                                <h3 class="new__title">Назад в 90-е</h3>
+                                <div class="new__info">
+                                    <div class="new__info--time">
+                                        <span class="new__icon--time"></span> 90 минут
                                     </div>
-                                    <div class="news__info--qa">
-                                        <span class="news__icon--qa"></span>70 вопросов
+                                    <div class="new__info--qa">
+                                        <span class="new__icon--qa"></span>70 вопросов
                                     </div>
                                 </div>
-                                <div class="news__desc">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                <div class="new__desc">Равным образом постоянное обеспечение нашей деятельности
+                                    позволяет
                                     оценить значение систем массового участия.
                                 </div>
-                                <a href="#" class="news__watch--btn">Cмотреть</a>
+                                <div class="new__btn-wrapper">
+                                    <a href="#" class="new__watch--btn">Cмотреть</a>
+                                </div>
+
                             </div>
                         </li>
-                        <li class="news__item">
-                            <div class="news__header">
+                        <li class="news__item new">
+                            <div class="new__header">
                                 <img src="./img/it-quiz.png" alt="it quiz">
                             </div>
-                            <div class="news__content">
-                                <h3 class="news__title">IT-викторина</h3>
-                                <div class="news__info">
-                                    <div class="news__info--time">
-                                        <span class="news__icon--time"></span> 90 минут
+                            <div class="new__content">
+                                <h3 class="new__title">IT-викторина</h3>
+                                <div class="new__info">
+                                    <div class="new__info--time">
+                                        <span class="new__icon--time"></span> 90 минут
                                     </div>
-                                    <div class="news__info--qa">
-                                        <span class="news__icon--qa"></span>70 вопросов
+                                    <div class="new__info--qa">
+                                        <span class="new__icon--qa"></span>70 вопросов
                                     </div>
                                 </div>
-                                <div class="news__desc">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                <div class="new__desc">Равным образом постоянное обеспечение нашей деятельности
+                                    позволяет
                                     оценить значение систем массового участия.
                                 </div>
-                                <a href="#" class="news__watch--btn">Cмотреть</a>
+                                <div class="new__btn-wrapper">
+                                    <a href="#" class="new__watch--btn">Cмотреть</a>
+                                </div>
+
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section">
+            <section class="section section--margin">
                 <div class="container">
                     <h2 class="section__title">Прошедшие игры</h2>
                     <ul class="games">
-                        <li class="games__item">
-                            <img src="./img/news-year-game.png" alt="New Year Quiz" class="games__cover">
-                            <div class="games__text-content">
-                                <time class="games__date">1 января</time>
-                                <div class="games__title">Новогодний квиз</div>
-                                <div class="games__desc">
+                        <li class="games__item single-games">
+                            <img src="./img/news-year-game.png" alt="New Year Quiz" class="single-games__cover">
+                            <div class="single-games__text-content">
+                                <time class="single-games__date">1 января</time>
+                                <div class="single-games__title">Новогодний квиз</div>
+                                <div class="single-games__desc">
                                     Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
                                 </div>
                             </div>
                         </li>
-                        <li class="games__item">
-                            <img src="./img/spring-game.png" alt="Spring Quiz Game" class="games__cover">
-                            <div class="games__text-content">
-                                <time class="games__date">8 марта</time>
-                                <div class="games__title">Весенняя игра</div>
-                                <div class="games__desc">
-                                    Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+                        <li class="games__item single-games">
+                            <img src="./img/spring-game.png" alt="Spring Quiz Game" class="single-games__cover">
+                            <div class="single-games__text-content">
+                                <time class="single-games__date">8 марта</time>
+                                <div class="single-games__title">Весенняя игра</div>
+                                <div class="single-games__desc">
+                                    Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ! 
                                 </div>
                             </div>
                         </li>
@@ -156,8 +172,10 @@
                         <div class="about__desc">
                             <div class="about__title">О нас</div>
                             <div class="about__desc--text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
-                                    более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                    более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык
                                     публичных выступлений в домашних условиях.
                                 </p>
                             </div>
@@ -170,26 +188,31 @@
         <footer class="footer-container">
             <div class="container footer-container__content">
                 <div class="footer">
-                    <a href="/LoftSchoolQuizBox/index.html" class="logo">
-                        Quiz-box
-                    </a>
-                    <nav class="menu__footer">
-                        <ul class="menu__list">
-                            <li class="menu__item menu__item--active"><a class="menu__link" href="/LoftSchoolQuizBox/index.html">Главная</a></li>
-                            <li class="menu__item"><a class="menu__link" href="./pages/games.html">Игры</a></li>
-                            <li class="menu__item"><a class="menu__link" href="./pages/reviews.html">Отзывы</a></li>
+                    <div class="footer__col">
+                        <a href="/LoftSchoolQuizBox/index.html" class="logo">
+                            Quiz-box
+                        </a>
+                        <nav class="menu__footer">
+                            <ul class="menu__list">
+                                <li class="menu__item menu__item--active"><a class="menu__link"
+                                        href="/LoftSchoolQuizBox/index.html">Главная</a></li>
+                                <li class="menu__item"><a class="menu__link" href="./pages/games.html">Игры</a></li>
+                                <li class="menu__item"><a class="menu__link" href="./pages/reviews.html">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__col footer__col--align--right">
+                        <ul class="socials">
+                            <li class="socials__item socials__item--tg"><a href="#" class="socials__link"></a></li>
+                            <li class="socials__item socials__item--vk"><a href="#" class="socials__link"></a></li>
+                            <li class="socials__item socials__item--fb"><a href="#" class="socials__link"></a></li>
+                            <li class="socials__item socials__item--inst"><a href="#" class="socials__link"></a></li>
                         </ul>
-                    </nav>
-                    <ul class="socials">
-                        <li class="socials__item socials__item--tg"><a href="#" class="socials__link"></a></li>
-                        <li class="socials__item socials__item--vk"><a href="#" class="socials__link"></a></li>
-                        <li class="socials__item socials__item--fb"><a href="#" class="socials__link"></a></li>
-                        <li class="socials__item socials__item--inst"><a href="#" class="socials__link"></a></li>
-                    </ul>
-                    <adress class="header__contacts">
-                        <div class="contacts__desc">Бесплатный звонок по России</div>
-                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    </adress>
+                        <adress class="header__contacts">
+                            <div class="contacts__desc">Бесплатный звонок по России</div>
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        </adress>
+                    </div>
                 </div>
             </div>
         </footer>

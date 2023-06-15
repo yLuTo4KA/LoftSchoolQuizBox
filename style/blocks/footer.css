@@ -1,21 +1,30 @@
 
 .footer{
-    height: 90px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+}
+.footer__col{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer__col--align--right{
+    justify-content: flex-end;
 }
 .footer-container__content{
     border-top: 1px solid #353538;
     height: 120px;
     padding-top: 25px;
+    margin-top: auto;
 }
 .menu__footer{
-     margin-left: 60px;
+     margin-left: 100px;
 }
 .socials{
-    margin-left: 40px;
+   margin-right: 72px;
 }
 .socials__item{
     display: inline-flex;

@@ -1,75 +1,95 @@
-
+.news{
+    display: flex;
+    justify-content: space-between;
+}
 .news__item{
-    min-height: 449px;
-    background: #FFF;
-    border-radius: 7px;
-    display: inline-block;
-    width: 362px;
-    margin-right: 22px;
+    width: calc(100% / 3 - 18px);
 }
 
 .news__item:last-child{
     margin-right: 0;
 }
-.news__header{
+.new{
+    min-height: 449px;
+    background: #FFF;
+    border-radius: 7px;
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.new__header{
     min-height: 144px;
+    overflow: hidden;
 }
 
-.news__content{
-    padding: 27px 20px;
+.new__content{
+    padding: 27px 23px;
     color: #000;
+    min-height: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
-.news__title{
+.new__title{
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 19px;
 }
-.news__info{
+.new__info{
     color: #666666;
-    margin-bottom: 25px;
+    margin-bottom: 23px;
     line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
 }
-.news__icon--time{
-    background-image: url(../../img/clock.png);
+.new__icon--time{
+    background-image: url(../../../img/clock.png);
     width: 26px;
     height: 26px;
-    display: inline-block;
+    display: inline-flex;
     vertical-align: bottom;
     margin-right: 7px;
-    margin-left: 6px;
+    
 }
-.news__info--time{
-    display: inline-block;
-    margin-right: 51px;
+.new__info--time{
+    display: inline-flex;
 }
-.news__icon--qa{
-    background-image: url(../../img/qa.png);
+.new__icon--qa{
+    background-image: url(../../../img/qa.png);
     width: 26px;
     height: 26px;
-    display: inline-block;
+    display: inline-flex;
     vertical-align: bottom;
     margin-right: 10px;
 }
-.news__info--qa{
-    display: inline-block;
+.new__info--qa{
+    display: inline-flex;
+    margin-right: 17px;
 }
 
-.news__desc{
+.new__desc{
     font-size: 14px;
     color: #303030;
-    margin-bottom: 41px;
+    margin-bottom: 23px;
+    line-height: 1.5;
 }
-
-.news__watch--btn{
+.new__btn-wrapper{
+    display: flex;
+    margin-top: auto;
+}
+.new__watch--btn{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
     color: #8F00FF;
     border: 1px solid #8F00FF;
-    padding: 18px 29px;
-    border-radius: 5px;
+    padding: 17px 29px;
+    border-radius: 6px;
+    
 }
-.news__watch--btn:hover{
+.new__watch--btn:hover{
     background: #8F00FF;
     color: #FFF;
     /* border: none; */

@@ -1,39 +1,50 @@
 
 .games{
-    margin-bottom: 65px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
-.games__item{
-    width: 557px;
-    display: inline-block;
-    vertical-align: top;
+.single-games{
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 10px;
+
+}
+.games__item{
+    height: 394px;
+    margin-right: 25px;
+}
+.games__item:last-child{
+    margin-right: 0;
 }
 
-.games__cover{
+
+.single-games__cover{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.games__text-content{
+.single-games__text-content{
     position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 27px 30px;
-    min-height: 150px;
+    padding: 56px 29px 0;
+    min-height: 200px;
 }
 
-.games__date{
+.single-games__date{
     font-size: 14px;
     margin-bottom: 2px;
 }
-.games__title{
+.single-games__title{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+    margin-top: 13px;
+}
+.single-games__desc{
+    padding-bottom: 20px;
 }

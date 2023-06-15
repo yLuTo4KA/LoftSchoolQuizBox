@@ -1,21 +1,20 @@
 .header{
-    height: 50px;
-    margin-bottom: 132px;
+    padding-top: 20px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     font-size: 36px;
     font-weight: 700;
     background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+    margin-right: 30px;
 }
-.menu{
-  margin-left: 33px;
-}
+
 
 .menu__item{
     display: inline-flex;
