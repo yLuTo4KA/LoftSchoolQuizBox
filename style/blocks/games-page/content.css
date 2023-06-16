@@ -3,13 +3,15 @@
     color: #303030;
     padding: 98px 0;
 }
+.games{
+    margin-bottom: 10px;
+}
+
 .game{
     display: flex;
     padding-bottom: 50px;
 }
-.game:last-child{
-    padding-bottom: 60px;
-}
+
 
 .game__img{
     width: 45.3%    

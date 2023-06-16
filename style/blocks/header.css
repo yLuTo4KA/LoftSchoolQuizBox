@@ -34,14 +34,14 @@
 }
 .header__contacts{
     line-height: 1.1;
-    margin-top: 10px;
+    margin-top: 5px;
     font-style: normal;
     text-align: right;
 }
 .contacts__desc{
     color: #9A9A9A;
     font-size: 11px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .contacts__phone{
     font-size: 26px;

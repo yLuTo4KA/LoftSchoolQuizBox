@@ -1,9 +1,14 @@
-
-.footer{
+.footer-container__section{
     height: 80px;
+}
+.footer{
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.inner-footer__container{
+    padding: 47px 0;
 }
 .footer__col{
     display: flex;
@@ -20,6 +25,7 @@
     padding-top: 25px;
     margin-top: auto;
 }
+
 .menu__footer{
      margin-left: 100px;
 }
