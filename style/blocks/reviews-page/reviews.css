@@ -1,0 +1,70 @@
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    color: #818181;
+    
+}
+.reviews__item{
+    width: 47%;
+    background: #F4F5F5;
+    margin: 0 27px 17px 0;
+    border-radius: 5px;
+    padding: 50px 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reviews__user-info{
+    display: flex;
+}
+.user__img{
+    display: flex;
+}
+.user__img img{
+    max-width: 142px;
+    max-height: 142px;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+.user__profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.user__name{
+    color: #2E77A4;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-flex;
+}
+.user__name--socials--vk::after{
+    content: url('../../../img/users/vk.png');
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+.user__quiz-name{
+    color: #303030;
+    font-size: 13px;
+    background: #B9EAE4;
+    border-radius: 35px;
+    width: max-content;
+    padding: 10px 20px;
+}
+.reviews__content{
+
+}
+.reviews__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1B1E;
+    line-height: 1.3;
+}
+.reviews__text{
+
+}
+.reviews__date{
+    color: #1A1B1E;
+    font-size: 14px;
+}

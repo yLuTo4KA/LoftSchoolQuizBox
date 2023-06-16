@@ -113,3 +113,8 @@ img{
     position: absolute;
     top: 5px;
 }
+.page__content{
+    background: white;
+    color: #303030;
+    padding: 98px 0;
+}
