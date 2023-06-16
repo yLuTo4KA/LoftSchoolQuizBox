@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     min-height: 412px;
-    background: url('../../../img/reviews-page-bg-up.png') no-repeat top;
+    background: url('../../img/reviews-page-bg-up.png') no-repeat top;
     padding-bottom: 22px;
 }
 .page__title{
