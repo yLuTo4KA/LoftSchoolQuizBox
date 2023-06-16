@@ -3,6 +3,15 @@
     align-items: center;
     justify-content: center;
 }
+.pager--theme--light{
+    color: #000;
+}
+.pager--theme--light .pager__item--active{
+    color: #FFF;
+}
+.pager--theme--light .pager__item:hover{
+    color: #FFF;
+}
 
 .pager__list{
     display: flex;

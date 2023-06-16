@@ -4,8 +4,9 @@
 
 @import url('../style/blocks/header.css');
 
-@import url('../style/blocks/games-page/main.css');
-
+@import url('../style/blocks/title.css');
+@import url('../style/blocks/games-page/content.css');
+@import url('../style/blocks/pager.css');
 
 @import url('../style/blocks/footer.css');
 

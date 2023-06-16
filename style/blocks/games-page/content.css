@@ -1,0 +1,56 @@
+.page__content{
+    background: white;
+    color: #303030;
+    padding: 98px 0;
+}
+.game{
+    display: flex;
+    padding-bottom: 50px;
+}
+.game:last-child{
+    padding-bottom: 60px;
+}
+
+.game__img{
+    width: 45.3%    
+}
+.game__content{
+    flex: 1;
+    padding-top: 17px;
+    
+}
+
+.game__title{
+    color: #000;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 35px;
+    line-height: 1;
+}
+.game__desc{
+    line-height: 1.7;
+    padding-bottom: 19px;
+}
+
+.game__btn{
+    background: none;
+    border: 1px solid #8F00FF;
+    color: #8F00FF;
+    padding: 17px 39px;
+}
+.game__btn:hover{
+    box-shadow: none;
+    color: #FFF;
+    background: #8F00FF;
+}
+
+/* .about__desc--btn{
+    background: none;
+    border: 1px solid #FFF;
+}
+.about__desc--btn:hover{
+    box-shadow: none;
+    background: none;
+    background-color: #FFF;
+    color: #8F00FF;
+} */
