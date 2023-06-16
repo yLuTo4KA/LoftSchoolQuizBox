@@ -60,6 +60,12 @@ button{
     justify-content: space-between;
     min-height: 585px;
 }
+.top-line__container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .section{
     margin-bottom: 126px;
     position: relative;

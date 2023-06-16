@@ -1,28 +1,38 @@
 
-
-
-.main__title{
+.top-line{
+    display: flex;
+    flex-direction: column;
+    min-height: 412px;
+    background: url('../../../img/reviews-page-bg-up.png') no-repeat top;
+    padding-bottom: 22px;
+}
+.page__title{
     font-size: 72px;
     font-weight: 700;
-    padding-bottom: 100px;
+    line-height: 1;
+    padding-bottom: 40px;
 }
-.main__pages{
-    width: 120px;
-}
-.pages__list{
+.breadcrumbs__list{
     display: flex;
     color: #9A9A9A;
     align-items: center;
 }
-.pages__item{
-    margin-right: 5px;
+
+.breadcrumbs__item:after{
+    content: "/";
+    padding: 0 5px 0 2px;
 }
-.pages__link{
+.breadcrumbs__item:last-child:after{
+    display: none;
+    padding: 0;
+}
+
+.breadcrumbs__link{
     text-decoration: underline;
     font-size: 14px;
    
 }
-.pages__link--active{
+.breadcrumbs__link--active{
     font-weight: 700;
 
 }
