@@ -1,0 +1,13 @@
+.hello-page-wrapper{
+    background: url(../../../img/main-page-bg-up.png) no-repeat center;
+    height: 100%;
+}
+.hello-page-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth{
+
+}
