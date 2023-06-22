@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 html, body{
     height: 100%;
@@ -60,6 +60,7 @@ img{
     margin: 0 auto;
     width: 1140px;
 }
+
 .hero__container{
     display: flex;
     flex-direction: column;
@@ -71,6 +72,14 @@ img{
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 30px;
 }
 .btn{
     background: #8F00FF;

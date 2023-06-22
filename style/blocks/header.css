@@ -6,14 +6,7 @@
     justify-content: space-between;
 }
 
-.logo{
-    font-size: 36px;
-    font-weight: 700;
-    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 30px;
-}
+
 
 
 .menu__item{
@@ -37,6 +30,7 @@
     margin-top: 5px;
     font-style: normal;
     text-align: right;
+    position: relative;
 }
 .contacts__desc{
     color: #9A9A9A;
@@ -50,4 +44,30 @@
 .contacts__workhours{
     font-size: 13px;
     text-decoration: underline;
+}
+.contacts__workhours:hover .dropdown{
+    right: 0;
+}
+.dropdown{
+    position: absolute;
+    background: #EDEDED;
+    border-radius: 5px;
+    right: -9999px;
+      
+}
+.dropdown__list{
+    padding: 22px 19px;
+    text-align: left;
+}
+.dropdown__item{
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dropdown__item:first-child{
+    font-weight: 700;   
+}
+.dropdown__item:last-child{
+    margin-bottom: 0;
 }
