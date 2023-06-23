@@ -89,6 +89,7 @@ img{
     text-transform: uppercase;
     font-size: 14px;
     display: inline-block;
+    transition: background 0.5s, color 0.5s, box-shadow 0.5s;
 }
 .btn:hover{
     background: #741BBA;
@@ -127,3 +128,24 @@ img{
     color: #303030;
     padding: 98px 0;
 }
+.inner-section{
+    background: #FFF;
+    color: #1A1B1E;
+    padding: 75px;
+}
+.inner-section--bg--grey{
+    background: #F4F5F5;
+   
+}
+.inner-section__title{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+.avatar{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+

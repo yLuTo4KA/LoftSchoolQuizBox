@@ -7,7 +7,9 @@
 @import url('../style/blocks/title.css');
 
 @import url('../style/blocks/reviews-page/reviews.css');
-
+@import url('../style/blocks/tag.css');
+@import url('../style/blocks/pager.css');
+@import url('../style/blocks/reviews-page/separator.css');
 @import url('../style/blocks/footer.css');
 
 

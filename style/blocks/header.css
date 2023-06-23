@@ -18,9 +18,11 @@
 }
 .menu__item--active{
     color: #8F00FF;
+    transition: color .3s;
 }
 .menu__link{
     font-size: 16px;
+    transition: color .3s;
 }
 .menu__link:hover{
     color: #8F00FF;
@@ -44,26 +46,54 @@
 .contacts__workhours{
     font-size: 13px;
     text-decoration: underline;
+    color: #98A4A8;
+    transition: color .3s;
 }
-.contacts__workhours:hover .dropdown{
+
+.contacts__link:hover .contacts__workhours{
+    color: inherit;
+}
+.contacts__link:hover .dropdown{
     right: 0;
+    opacity: 80%;
+    transition: opacity 0.5s;
 }
 .dropdown{
     position: absolute;
     background: #EDEDED;
     border-radius: 5px;
     right: -9999px;
-      
+    opacity: 0;
+    margin-top: 10px;  
+}
+.dropdown::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -10px;
+}
+.dropdown::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #EDEDED;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 92px;
+    top: -5px;
+    z-index: -5;
 }
 .dropdown__list{
-    padding: 22px 19px;
+    padding: 15px 19px;
     text-align: left;
 }
 .dropdown__item{
     color: #1E1F20;
     font-size: 13px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .dropdown__item:first-child{
     font-weight: 700;   

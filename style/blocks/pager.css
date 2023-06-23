@@ -27,6 +27,7 @@
 
 .pager__item--active .pager__link{
     background: #8F00FF;
+    transition: background .3s, color .3s;
 }
 .pager__link{
     display: block;
@@ -35,6 +36,7 @@
     border-radius: 50%;
     font-weight: bold;
     line-height: 32px;
+    transition: background .5s, color .5s;
 }
 .pager__link:hover{
     background: #8F00FF;

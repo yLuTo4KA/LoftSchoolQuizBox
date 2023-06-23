@@ -28,7 +28,15 @@
                     </nav>
                     <adress class="header__contacts">
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours">График работы</div>
+                        <div class="contacts__link">
+                            <div class="contacts__workhours">График работы</div>
+                            <div class="dropdown">
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                                    <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                </ul>
+                            </div>
+                        </div>
                     </adress>
                 </header>
                 <h1 class="page__title">
@@ -46,111 +54,124 @@
         <main class="page__content">
             <div class="container">
                 <ul class="reviews">
-                    <li class="reviews__item">
-                        <div class="reviews__user-info">
-                            <div class="user__img">
-                                <img src="../img/users/user-1.png" alt="User">
-                            </div>
-                            <div class="user__profile">
-                                <h3 class="user__name user__name--socials--vk">Иван Петрович</h3>
-                                <div class="user__quiz-name">
-                                    90-е
+                    <li class="reviews__item review">
+                        <div class="review__header">
+                            <div class="review__photo">
+                                <div class="avatar">
+                                    <img src="../img/users/user-1.png" alt="user">
                                 </div>
                             </div>
-                        </div>
-                        <div class="reviews__content">
-                            <h2 class="reviews__title">Крутой квиз про 90-е</h2>
-                            <div class="reviews__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                        При создании генератора мы использовали небезизвестный универсальный код речей.
-                                </p>
+                            <div class="review__userdata">
+                                <a href="#" class="review__user">Иван Петрович</a>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">90-е</li>
+                                </ul>
                             </div>
-                            <time class="reviews__date">Ноябрь 2019</time>
                         </div>
-                        
+                        <div class="review__content">
+                            <h3 class="review__title">Крутой квиз про 90-е.</h3>
+                            <div class="review__content-text">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                            </div>
+                            <time class="review__date">Ноябрь 2019</time>
+                        </div>
                     </li>
-                    <li class="reviews__item">
-                        <div class="reviews__user-info">
-                            <div class="user__img">
-                                <img src="../img/users/user-2.png" alt="User">
-                            </div>
-                            <div class="user__profile">
-                                <h3 class="user__name user__name--socials--vk">Екатерина Жмых</h3>
-                                <div class="user__quiz-name">
-                                    IT-викторина
+                    <li class="reviews__item review">
+                        <div class="review__header">
+                            <div class="review__photo">
+                                <div class="avatar">
+                                    <img src="../img/users/user-3.png" alt="user">
                                 </div>
+                            </div>
+                            <div class="review__userdata">
+                                <a href="#" class="review__user">Лиза Сидорова</a>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">Кино и музыка</li>
+                                </ul>
                             </div>
                         </div>
-                            <div class="reviews__content">
-                                <h2 class="reviews__title">Очень понравилась
-                                    викторина.</h2>
-                                <div class="reviews__text">
-                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                        При создании генератора мы использовали небезизвестный универсальный код речей.
-                                        Текст генерируется абзацами случайным образом от двух до десяти предложений в
-                                        абзаце, что позволяет сделать текст более привлекательным и живым для
-                                        визуально-слухового восприятия.</p>
-                                </div>
-                                <time class="reviews__date">Ноябрь 2019</time>
+                        <div class="review__content">
+                            <h3 class="review__title">Интерестный квиз.</h3>
+                            <div class="review__content-text">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
                             </div>
-                        
+                            <time class="review__date">Ноябрь 2019</time>
+                        </div>
                     </li>
-                    <li class="reviews__item">
-                        <div class="reviews__user-info">
-                            <div class="user__img">
-                                <img src="../img/users/user-3.png" alt="User">
-                            </div>
-                            <div class="user__profile">
-                                <h3 class="user__name user__name--socials--vk">Лиза Сидорова</h3>
-                                <div class="user__quiz-name">
-                                    Кино и музыка
+                    <li class="reviews__item review">
+                        <div class="review__header">
+                            <div class="review__photo">
+                                <div class="avatar">
+                                    <img src="../img/users/user-2.png" alt="user">
                                 </div>
+                            </div>
+                            <div class="review__userdata">
+                                <a href="#" class="review__user">Екатерина Жмых</a>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">IT-викторина</li>
+                                </ul>
                             </div>
                         </div>
-                            <div class="reviews__content">
-                                <h2 class="reviews__title">Интерестный квиз.</h2>
-                                <div class="reviews__text">
-                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                                        При создании генератора мы использовали небезизвестный универсальный код речей.
-                                    </p>
-                                </div>
-                                <time class="reviews__date">Ноябрь 2019</time>
+                        <div class="review__content">
+                            <h3 class="review__title">Очень понравилась 
+                                викторина.</h3>
+                            <div class="review__content-text">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
                             </div>
-                        
+                            <time class="review__date">Ноябрь 2019</time>
+                        </div>
                     </li>
-                    <li class="reviews__item">
-                        <div class="reviews__user-info">
-                            <div class="user__img">
-                                <img src="../img/users/user-4.png" alt="User">
-                            </div>
-                            <div class="user__profile">
-                                <h3 class="user__name user__name--socials--vk">Антон Игоревич</h3>
-                                <div class="user__quiz-name">
-                                    Гарри Поттер
+                    <li class="reviews__item review">
+                        <div class="review__header">
+                            <div class="review__photo">
+                                <div class="avatar">
+                                    <img src="../img/users/user-4.png" alt="user">
                                 </div>
                             </div>
-                        </div>
-                        <div class="reviews__content">
-                            <h2 class="reviews__title">Был первый раз, очень круто.
-                                Не пожалел, что сходил!</h2>
-                            <div class="reviews__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
-                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
-                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
-                                    использовали небезизвестный универсальный код речей.</p>
+                            <div class="review__userdata">
+                                <a href="#" class="review__user">Антон Игоревич</a>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">Гарри Поттер</li>
+                                </ul>
                             </div>
-                            <time class="reviews__date">Ноябрь 2019</time>
+                        </div>
+                        <div class="review__content">
+                            <h3 class="review__title">Был первый раз, очень круто.
+                                Не пожалел, что сходил!</h3>
+                            <div class="review__content-text">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                            </div>
+                            <time class="review__date">Ноябрь 2019</time>
                         </div>
                     </li>
                 </ul>
+                <div class="pager pager--theme--light">
+                    <div class="pager__display">Страница 1 из 7</div>
+                    <ul class="pager__list">
+                        <li class="pager__item pager__item--active"><a href="#" class="pager__link">1</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">2</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">3</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">4</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">5</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">6</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">7</a></li>
+                    </ul>
+                </div>  
             </div>
         </main>
+        <div class="separator">
+            <div class="container">
+                <div class="separator__content">
+                    <h2 class="separator__title">Подберём игру
+                        для вас!</h2>
+                </div>
+            </div>
+        </div>
+        <section class="inner-section inner-section--bg--grey">
+            <div class="container">
+                <h2 class="inner-section__title">Оставьте отзыв</h2>
+            </div>
+        </section>
         <footer class="inner-footer">
             <div class="container inner-footer__container">
                 <div class="footer">
@@ -171,10 +192,10 @@
                     </div>
                     <div class="footer__col footer__col--align--right">
                         <ul class="socials">
-                            <li class="socials__item socials__item--tg"><a href="#" class="socials__link"></a></li>
-                            <li class="socials__item socials__item--vk"><a href="#" class="socials__link"></a></li>
-                            <li class="socials__item socials__item--fb"><a href="#" class="socials__link"></a></li>
-                            <li class="socials__item socials__item--inst"><a href="#" class="socials__link"></a></li>
+                            <li class="socials__item socials__item--tg"><a href="#" class="socials__link socials__link--tg"></a></li>
+                            <li class="socials__item socials__item--vk"><a href="#" class="socials__link socials__link--vk"></a></li>
+                            <li class="socials__item socials__item--fb"><a href="#" class="socials__link socials__link--fb"></a></li>
+                            <li class="socials__item socials__item--inst"><a href="#" class="socials__link socials__link--inst"></a></li>
                         </ul>
                         <adress class="header__contacts">
                             <div class="contacts__desc">Бесплатный звонок по России</div>

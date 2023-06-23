@@ -1,72 +1,64 @@
 .reviews{
-    display: flex;
-    flex-wrap: wrap;
-    color: #818181;
- 
-    
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 50px;
 }
 .reviews__item{
-    width: 47%;
+    margin-bottom: 15px;
+}
+.review{
+    display: inline-flex;
+    flex-direction: column;
     background: #F4F5F5;
-    margin: 0 27px 17px 0;
+    padding: 50px 30px;
     border-radius: 5px;
-    padding: 50px 28px;
-    height: 100%;
+}
+.review__header{
     display: flex;
-    flex-direction: column;
-    
+    align-items: center;
+    margin-bottom: 30px;
 }
-.reviews__user-info{
+.review__photo{
+    margin-right: 20px;
+}
+.review__user{
     display: flex;
-}
-.user__img{
-    display: flex;
-}
-.user__img img{
-    max-width: 142px;
-    max-height: 142px;
-    border-radius: 50%;
-    margin-right: 22px;
-}
-.user__profile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.user__name{
-    color: #2E77A4;
+    align-items: center;
     font-size: 24px;
     font-weight: 700;
-    display: inline-flex;
+    color: #1A1B1E;
+    transition: color .3s;
+    margin-bottom: 10px;
 }
-.user__name--socials--vk::after{
-    content: url('../../../img/users/vk.png');
-    width: 40px;
-    height: 40px;
+.review__user::after{
+    content: url("../../../img/users/vk.png");
+    height: 29px;
     margin-left: 5px;
 }
-.user__quiz-name{
-    color: #303030;
-    font-size: 13px;
-    background: #B9EAE4;
-    border-radius: 35px;
-    width: max-content;
-    padding: 10px 20px;
+.review__user:hover{
+    color: #4d86a1;
 }
-.reviews__content{
 
+.review__tags{
+    display: flex;
+    align-items: flex-start;
 }
-.reviews__title{
+
+.review__title{
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 13px;
     color: #1A1B1E;
-    line-height: 1.3;
 }
-.reviews__text{
+.review__content-text{
+    color: #818181;
+    margin-bottom: 50px;
+    line-height: 1.64;
+}
 
-}
-.reviews__date{
-    color: #1A1B1E;
+.review__date{
+    font-weight: 600;
     font-size: 14px;
+    color: #1A1B1E;
 }
+

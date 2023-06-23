@@ -1,17 +1,4 @@
-.inner-section{
-    background: #FFF;
-    color: #1A1B1E;
-    padding: 75px;
-}
-.inner-section--bg--grey{
-    background: #F4F5F5;
-   
-}
-.inner-section__title{
-    font-weight: 700;
-    font-size: 48px;
-    margin-bottom: 70px;
-}
+
 .partners{
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s;
 }
 .partners__link:hover{
     filter: none;

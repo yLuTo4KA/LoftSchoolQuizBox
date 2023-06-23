@@ -87,6 +87,7 @@
     border: 1px solid #8F00FF;
     padding: 17px 29px;
     border-radius: 6px;
+    transition: background 0.5s, color 0.5s;
     
 }
 .new__watch--btn:hover{
