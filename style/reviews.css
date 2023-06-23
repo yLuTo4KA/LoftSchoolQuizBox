@@ -1,5 +1,4 @@
 @import url('../style/layout/normalize.css');
-
 @import url('../style/layout/base.css');
 
 @import url('../style/blocks/header.css');
@@ -10,6 +9,7 @@
 @import url('../style/blocks/tag.css');
 @import url('../style/blocks/pager.css');
 @import url('../style/blocks/reviews-page/separator.css');
+
 @import url('../style/blocks/footer.css');
 
 

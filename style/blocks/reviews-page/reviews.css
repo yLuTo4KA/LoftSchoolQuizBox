@@ -1,7 +1,10 @@
+.page__content--reviews{
+    padding: 98px 0px 85px;
+}
 .reviews{
     column-count: 2;
     column-gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .reviews__item{
     margin-bottom: 15px;

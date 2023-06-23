@@ -1,4 +1,15 @@
 .separator{
-    background: #17191C;
+    background: #17191C url(../../../img/vote.png) right 23% bottom no-repeat;
     min-height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.separator__content{
+    max-width: 42%;
+}
+.separator__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
 }
