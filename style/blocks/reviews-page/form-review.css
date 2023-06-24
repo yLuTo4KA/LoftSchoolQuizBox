@@ -1,0 +1,78 @@
+.inner-section-form{
+    padding-top: 59px;
+    padding-bottom: 100px; 
+}
+.inner-section__title-review{
+    margin-bottom: 57px;
+}
+.form__row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input{
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 21px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+.form__input--textarea{
+    height: 232px;
+}
+.form__input::placeholder{
+    color: #666;
+}
+.form__input:focus{
+    outline: 1px solid #8F00FF;
+}
+.form__input:last-child{
+    margin-right: 0px;
+}
+
+.form__controls{
+    display: flex;
+    margin-bottom: 13px;
+}
+.form__controls-title{
+    width: 38%;
+    font-size: 18px;
+}
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.controls__item{
+    margin-right: 17px;
+    margin-bottom: 10px;
+}
+.controls__elem{
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+    background: #B9EAE4;
+}
+.controls__checkbox{
+    display: none;
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+}
+.form__btn{
+    margin-right: 18px;
+}
+.form__btns .btn--color--gray{
+    padding: 18px 44px;
+}
+.form__btn:last-child{
+    margin-right: 0px;
+}
+.form__btn:hover{
+    box-shadow: none;
+}

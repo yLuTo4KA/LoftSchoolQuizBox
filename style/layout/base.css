@@ -46,9 +46,10 @@ p{
 }
 button{
     border: none;
-    background-color: transparent;
+    background: transparent;
     cursor: pointer;
 }
+
 
 
 
@@ -56,6 +57,7 @@ img{
     display: block;
     max-width: 100%;
 }
+
 .container{
     margin: 0 auto;
     width: 1140px;
@@ -83,6 +85,7 @@ img{
 }
 .btn{
     background: #8F00FF;
+    color: #FFF;
     border-radius: 5px;
     padding: 18px 40px;
     font-weight: 700;
@@ -95,6 +98,15 @@ img{
     background: #741BBA;
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
 }
+
+.btn--color--gray{
+    background: #8E8E8E;
+    color: #FFF;
+}
+.btn--color--gray:hover{
+    background: #2B2B2B;
+}
+
 .section{
     margin-bottom: 126px;
     position: relative;
