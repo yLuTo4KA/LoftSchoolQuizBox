@@ -24,6 +24,17 @@ body{
     min-height: 100%;
     overflow: hidden;
     min-width: 1200px;
+    animation: wrapperLoad 1s forwards;
+}
+
+@keyframes wrapperLoad{
+    from{
+        opacity: 0%;
+    }
+   
+    to{
+        opacity: 100%;
+    }
 }
 a{
     color: inherit;
